@@ -1,0 +1,326 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: auto;
+    font-family: 'Lato', 'Kanit', sans-serif;
+    font-size: 16px;
+
+    /*margin: 0 0 120px; !* bottom = footer height *!*/
+}
+
+.container-content {
+    padding: 20px 0 50px 0;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.page-header {
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /*height: 120px;*/
+    height: auto;
+    background-color: #31b0d5;
+}
+
+.footer-content {
+    padding: 20px 0 20px 0;
+    color: white;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-size-header {
+    font-size: 24px;
+}
+
+.font-size-header-long-text {
+    font-size: 22px;
+}
+
+.font-size-title {
+    font-size: 18px;
+}
+
+.font-size-detail {
+    font-size: 14px;
+}
+
+.font-size-recommend {
+    font-size: 12px;
+}
+
+.text-r {
+    text-align: right;
+}
+
+.dashboard-header {
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.border-top{
+    border-top: 1px solid #ccc5c5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #ccc5c5;
+}
+
+.border {
+    border: 1px solid #ccc5c5;
+}
+
+.border-no-top {
+    border: 1px solid #ccc5c5;
+    border-top: none;
+}
+
+.border-no-top-no-bottom {
+    border: 1px solid #ccc5c5;
+    border-top: none;
+    border-bottom: none;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.clear {
+    clear: both;
+}
+
+.margin-horizontal-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.margin-left {
+    margin-left: 20px;
+}
+
+.margin-right {
+    margin-right: 20px;
+}
+
+.margin-left-7 {
+    margin-left: 7px;
+}
+
+.margin-right-7 {
+    margin-right: 7px;
+}
+
+.padding {
+    padding: 15px 15px 15px 15px;
+}
+
+.background-grey {
+    background-color: #cbcbcb;
+}
+
+.padding-no-bottom {
+    padding: 15px 15px 0 15px;
+}
+
+.padding-top {
+    padding-top: 20px;
+}
+
+.padding-bottom {
+    padding-bottom: 20px;
+}
+
+.padding-top-7 {
+    padding-top: 7px;
+}
+
+.padding-bottom-7 {
+    padding-bottom: 7px;
+}
+
+.padding-left-7 {
+    padding-left: 7px;
+}
+
+.padding-right-7 {
+    padding-right: 7px;
+}
+
+.mpadding-left {
+    padding-left: 20px;
+}
+
+.padding-right {
+    padding-right: 20px;
+}
+
+.padding-top-small {
+    padding-top: 10px;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0;
+}
+
+.font-red {
+    color: red;
+}
+
+.font-grey {
+    color: #B3B3B3;
+}
+
+.font-blue {
+    color: #73A6FB;
+}
+
+.font-black {
+    color: #000;
+}
+
+.nav-item a {
+    color: #000;
+}
+
+.nav-item a:hover, .nav-item a.active {
+    color: #73A6FB;
+}
+
+.fa-print {
+    margin-top: -10px;
+    color: red;
+}
+.font-green {
+    color: green;
+}
+.font-soft-grey {
+    color: #7d7d78;
+}
+.font-orange {
+    color: coral;
+}
+
+.text-red {
+    color: red;
+}
+
+.width-20 {
+    width: 20%;
+}
+.width-40 {
+    width: 40%;
+}
+.width-60 {
+    width: 60%;
+}
+.width-140 {
+    width: 140%;
+}
+
+.menu-logout {
+    float: right;
+    padding-top: 25px;
+    color: black;
+}
+
+.header-link {
+    color: #000;
+}
+
+.header-link:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.display-none {
+    display: none;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.col-footer-name {
+    text-align: right;
+}
+
+.wordwrap-width-full {
+    word-wrap: break-word;
+    width: 100%;
+}
+
+.btn-blue {
+    border: none;
+    border-radius: 3px;
+    background: #73A6FB;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    padding: 6px;
+    width: 110px;
+    text-align: center;
+}
+
+.btn-green {
+    border: none;
+    border-radius: 3px;
+    background: #A1FB69;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    padding: 6px;
+    width: 110px;
+    text-align: center;
+}
+
+.width-250 {
+    width: 250px;
+}
+
+.modal-open {
+    overflow: scroll;
+    padding-right: 0 !important;
+}
+
+@media (max-width: 991px) {
+    .col-footer-name {
+        text-align: left;
+    }
+}

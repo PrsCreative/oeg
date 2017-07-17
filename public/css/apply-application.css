@@ -1,0 +1,40 @@
+.title-section{
+    border-bottom: #808080 1px solid;
+    color: #73A6FB;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.form-horizontal .radio-inline {
+    padding-top: 0;
+}
+.form-control.inline {
+    display: inline-block;
+}
+.term-block {
+    border: 1px solid #808080;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.term-block h2 {
+    border-bottom: 1px solid #808080;
+    color: #73a6fb;
+    font: 18px 'Lato', 'Kanit', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 15px 40px;
+}
+
+.term-block .term-block-content {
+    padding: 30px 20px;
+}
+.term-block .term-content {
+    height: 220px;
+    overflow-y: scroll;
+    padding: 0 20px;
+}
+
+.btn-confirm {
+    float: right;
+    margin-top: 30px;
+    width: 350px;
+}

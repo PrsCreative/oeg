@@ -1,0 +1,31 @@
+.hsp-admission-test-block {
+    margin-bottom: 20px;
+}
+
+.btn-book {
+    border: none;
+    border-radius: 3px;
+    background: #73A6FB;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    padding: 6px;
+    width: 110px;
+    text-align: center;
+}
+.btn-book:hover {
+    opacity: 0.9;
+}
+
+.modal-open {
+    overflow: scroll;
+    padding-right: 0 !important;
+}
+
+@media (max-width: 991px) {
+    .btn-book {
+        margin-left: 1px;
+        margin-top: 6px;
+    }
+}
